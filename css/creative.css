@@ -83,7 +83,7 @@ img::-moz-selection {
 #mainNav {
   border-bottom: 1px solid rgba(161, 187, 177, 0.1);
   background-color: #fff;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Fjalla One', sans-serif;;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
@@ -93,7 +93,7 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   color: #2B2B55;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Fjalla One', sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -251,7 +251,7 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   font-family: 'Fjalla One', sans-serif;
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -290,7 +290,7 @@ header.masthead p {
   text-transform: uppercase;
   border: none;
   border-radius: 300px;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+   font-family: 'Fjalla One', sans-serif;
 }
 
 .btn-xl {
