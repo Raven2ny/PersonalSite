@@ -30,15 +30,32 @@
       height: 3.4rem;
       max-width: 71rem;
       margin: 0 auto;
+      padding: 0 1rem;
     }
 
     .header-links {
-      display: inline-block;
       padding-left: 1rem;
     }
 
+    @media (max-width: 422px) {
+      .header-links {
+        display: none;
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header-badges {
+        display: none;
+      }
+    }
+
+    @media (min-width: 769px) {
+      .header-badges, .header-links {
+        display: inline-block;
+      }
+    }
+
     .header-badges {
-      display: inline-block;
       padding-left: 1rem;
       flex-grow: 1;
       text-align: right;
@@ -63,11 +80,13 @@
     .header-badges svg:hover, .header-badges i:hover {
       animation-duration: .6s;
       animation-name: bounce;
-  transform-origin: center bottom;
+      transform-origin: center bottom;
     }
 
     .content {
-      margin: 0 15rem;
+      max-width: 50rem;
+      margin: 0 auto;
+      padding: 0 2rem;
       padding-top: 3rem;
     }
 
